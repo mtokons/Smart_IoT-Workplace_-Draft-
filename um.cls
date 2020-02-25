@@ -27,6 +27,7 @@
 
 \usepackage[defaultsans]{lato}		 % Sans font to use
 \usepackage[printonlyused,withpage]{acronym}
+\usepackage{dirtytalk}
 
 %% ****************** Packages (End) *********************
 
@@ -34,7 +35,7 @@
 %% ************ UM Definitions (Start) *****************
 
 \definecolor{OxfordBlue}{rgb}{0,0.106,0.329}   % Color
-\definecolor{UMRed}{rgb}{0.73,0.09,0.19}   % UM Logo Color
+\definecolor{UMRed}{rgb}{0.1,0.51,0.25}   % UM Logo Color {0.73,0.09,0.19}UMred
 
 % Setup choosen University of Bremen small logo
 \def\logo{{\includegraphics[width=30mm]{images/Bremen.png}}}
@@ -238,8 +239,8 @@
 \begin{figure}[h]
 	\includegraphics[width=2.5in]{images/logo_ub.png}
 \end{figure}
-\vspace{3mm}
-{\noindent\Large\bfseries\sffamily\textcolor{UMRed}{Declaration by Postgraduate Students}}\\ %% FIXME this will have to change if not postgraduate ...
+\vspace{5mm}
+{\noindent\Large\bfseries\sffamily\textcolor{UMRed}{Declaration by Graduate Students}}\\ %% FIXME this will have to change if not postgraduate ...
 
 {\setlength{\parindent}{0em}
 	

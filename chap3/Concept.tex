@@ -1,17 +1,199 @@
 \chapter{Concept}
+\textit{In  this  chapter  we  will  discuss about concept  that  address  the  topics  of  stress management requirement engineering and design approach .  We  have  chosen requirement engineering  that  assisted  us  to design a system for stress management at  the  workplace  in  particular  for people with stress disorder.  To  have  a  clear understanding of the requirement we have chosen the design process.  It organize our ideas and refine potential solutions to engineering challenges. Afterwards  a  system is designed which is satisfy our goal.}
+\vspace{5mm}
+
+Stress has recently overtaken the common cold as the most common cause of sick leave in many European countries and is a major cause of concern for companies worldwide. Why then do most of the 'Coping with Stress' texts to be found in bookshops consider this a problem only to be tackled by the Individual ? Strategic Stress Management is different, it shows how companies can boost performance by adopting integrated organizational strategies to identify and reduce stress in their employees. Including practical advice on how to conduct a stress audit and how to target stress 'hot spots' with an organization, Strategic Stress Management provides a fresh strategic model for the manager concerned with the negative effects stress can have both on company performance and the quality of life of individuals at work. This is the latest book from best-selling stress management author, Cary Cooper, and will be eagerly awaited by HR Directors, Organizational Consultants. Occupational Psychologists, Managing Directors and all managers who wish to work with healthy, stable and productive staff.
 
 \section{Requirement Engineering}
+The ultimate aim of writing a problem statement is to turn a common problem into a targeted, well-defined problem that can be solved through a requirement engineering process. It clearly indicates the project's purpose. \citep{K.AduMichael2014InadequateStudy.}
 
-\section{Implementation Methodology}
-The implementation methodology is the method by which the projects are technically and operationally implemented in the field.
+\begin{figure}[ht!]
+\centering
+\smartdiagramset{
+planet color=orange!60,
+distance planet-satellite=4cm,
+planet text width=2.5cm,
+satellite text width=2.7cm,
+}
+\smartdiagram[connected constellation diagram]{
+    Requirement Engineering,
+    Feasibility\\study,
+    Analysis,
+    Definition,
+    Documentation
+}
+\captionof{figure}{Requirement Engineering Steps}
+  \label{fig:RE}
+\end{figure}
 
-The thesis is carried out partially involving both literature study and design
-science. The starting point of the theoretical frameworks is the rule-based method
-engineering approach \citep{10.1007/978-3-642-19997-4_17} from which the research question
-emerges. From there, we try to escalate to the theory of declarative workflows \citep{vanderAalst2009DeclarativeSupport} and the goal-driven approach \citep{Lamsweerde2009RequirementsSpecifications}.
-reference iso 9001:2008
-\subsection{Correction}
-\subsection{Corrective Action}
+It is a process of gathering and defining service provided by the system. Our requirements Engineering Process consists of the following main activities: shows in figure:\ref{fig:RE}
 
-\blindtext
-\enlargethispage{\baselineskip} % so you do not get a single line in another page
+\begin{enumerate}
+    \item  Feasibility study : find out the current user need and budget.
+    \item Requirement analysis: what the stakeholders required from the system.
+    \item Requirement definition: defined the requirements in the form of understandable to the customer.
+    \item Requirement document: official statement define both, definition and specification.
+\end{enumerate}
+
+The current research aimed to explore the effectiveness of a system that promotes behavioural change for stress-related issues in terms of the acceptability, usefulness, and possible effects of the program. Furthermore, the aim was also to study how appropriate and realistic the process and resource management of the study would be for a randomized controlled trial. \citep{Eklund2018EvaluationStudy}
+
+When conducting a feasibility investigation, the important parameters for a planned, randomized controlled trial can be identified, adjusted, and further developed to improve the chances of success in a larger, more costly study. Feasibility studies can help identify what needs to be changed in terms of action and research methodology
+
+We taken in person interview for conducting feasibility study based on random set of questionnaires.Following table:\ref{tab:feasibility} describe the result of our interview. 
+
+\begin{table}[ht!]
+\centering
+\begin{tabular}{|l|l|}
+\hline
+\textbf{Questions} & \textbf{Answers} \\ 
+\hline
+Do you feel stress in Working Place? & Yes \\ 
+\hline
+\begin{tabular}[c]{@{}l@{}}Can you describe a time when your \\ stress resulted in making errors at work?\end{tabular} & Evening \\ \hline
+What are the signs of your stress in the workplace? & Can not communicate with others  \\ \hline
+How common is stress in the workplace? & Almost Everyday \\ \hline
+\begin{tabular}[c]{@{}l@{}}What’s the most stressful situation \\ you’ve faced at work so far? How did you handle it?\end{tabular} & In meeting \& leave the place \\ \hline
+When you feel stress what happened in physically?? & Feeling imbalanced  \\ \hline
+\end{tabular}
+\caption{Feasibility Study Questionnaires \& Answers }
+\label{tab:feasibility}
+\end{table}
+
+Considering the program's acceptability, the findings for the statements evaluating the opinions and experiences of the participants with regard to the content, tailoring, input, performing an own behavioral analysis, setting goals, graphic and pedagogical design, and how the knowledge is summarized in Table: \ref{tab:feasibility}
+
+To enhance flexibility, participants suggested stress Management should be delivered as a mobile application. Stress Management structure forces user to go through all the assignments in a predetermined order, and this was perceived as a barrier for using. The participant with low stress levels expressed that for a person with a low stress level, it was difficult to stay motivated to go through such an extensive program.In the next section we are going to develop a design approach.
+
+\section{Design Approach}
+Providing access to this original information about users will enable agile, progressive, or iterative progress along the development process. In this regard, personas, which are commonly used in user-centered design and human-computer interaction activities, are not only a suitable method for the adequate documentation of users’ attributes, but also a tool for empathizing with users’ aims and needs. Personas can be used throughout the entire development process and in addition to user-centric design tasks by the development team for requirement engineering activities.
+
+The integration of personas, as a kind of user description, in the requirements engineering activities, improves two aspects of the development: (1) consideration of multi-faceted user needs in the early stages of development when practical main decisions are taken; (2) continuous integration, testing and revision of user requirements for evaluation of existing prototypes and intermediates.\citep{Mayas2016PersonasChallenges}
+
+\subsection{Persona analysis}
+% https://app.milanote.com/1IW8dZ1W4EN68B/jan
+\begin{figure}[hbt!] 
+  \centering
+  \includegraphics[width=1.05\linewidth]{chap3/image/persona_jans.pdf}
+  \caption[Persona Analysis ]{Persona Analysis.\index{Hasnain}}
+  \label{fig:Persona_Analysis}
+\end{figure}
+
+
+In Figure \ref{fig:Persona_Analysis} you can see the persona analysis dashboard which has made for the design more specific application for user.
+
+The result of Persona Analysis will be determine based on following data from user:
+
+\begin{itemize}
+    \item User Name : Jan Brunkenhövers
+    \item Audience segment: Workplace accessibility for anxiety related disability
+\end{itemize}
+\textbf{Bio}
+
+    "I’m Jan Brunkenhövers and I have an anxiety disability. I studied curation and am trained in office management. As a disabled and queer person, I am always interested in questions of accessibility, inclusion and creative ways of participation."\\
+    
+\textbf{Personal Information}
+\begin{itemize}
+\item Age: not mentioned
+\item male
+\item Interests: Photography, searching for interesting pieces of media.
+\item Favorite movie: Gravity (2013)
+\item Location: Bremen 
+\end{itemize}
+\textbf{Goals and Needs}
+\begin{itemize}
+    \item A tool to better catalogue and manage situations when my anxiety spikes
+    \item A nonverbal communications device to indicate that I’m in the moment incapable of processing information and speech well and am taking a short rest.
+    \item Devices need to have good design to be part of a friendly workplace environment   
+\end{itemize}
+% https://app.milanote.com/1IW8dZ1W4EN68B/jan
+\begin{figure}[hbt!] 
+  \centering
+  \includegraphics[width=1.05\linewidth]{chap3/image/persona_jans2.pdf}
+  \caption[Persona Analysis outcome ]{Persona Analysis Outcome.\index{Hasnain}}
+  \label{fig:Persona_Analysis2}
+\end{figure}
+
+\textbf{Pain points}
+\begin{itemize}
+    \item Recurrent, unwanted distressing memories of the traumatic event
+    \item Memory problems, including not remembering important aspects of the traumatic event
+\end{itemize}
+
+\subsubsection{Analysis Outcome}
+
+\textbf{Ideal step by step sequence}
+\begin{itemize}
+    \item Sensors or personal feeling identify an incoming anxiety attack 
+    \item short interaction with chatbot to catalogue the anxiety spike and review some possible activities to handle the anxiety attack 
+    \item taking a short break to calm myself through specific activities and refocus myself 
+    \item meanwhile using the non-verbal communicator at my desk and a portable version to indicate to my colleagues that I’m not good at processing information and speech at the moment 
+    \item when the anxiety attack is over going back to my desk, switching off the communicator and cataloguing the length of the break to the chatbot 
+    \item over a long period of time, hopefully, patterns emerge what kinds and lengths of breaks are useful to me.
+\end{itemize}
+\textbf{Available technology}
+\begin{itemize}
+    \item Smartphone
+    \item IT setup of a modern office workplace
+    \item IoT devices for my desk and one portable version
+    \item wearable sensors
+    \item Web applications and software's.
+\end{itemize}
+\textbf{Ideal experience}
+
+Jan said his experience after analysis "Very easy to use devices that will make handling an anxiety attack and taking a break seamlessly part of the overall workflow at my workplace."
+
+based on persona analysis we designed and make a prototype of the application which explain in next section.
+
+\subsection{Use case-driven system block diagram}
+In figure \ref{fig:system_block}, We generate a system block diagram to approach it from implementation cases that we receive from persona analysis. This system block diagram is a high-level system modularization that divides the system as a whole into maximally decoupled sub-systems. It helps one to imagine the system as large interacting components, which can be independently conceptualized and created.
+\begin{figure}[h] 
+  \centering
+  \includegraphics[width=1\textwidth]{chap4/block1.png} %https://app.creately.com/diagram/FLSbOaB2Ejl/edit
+  \caption[Stress management System Block Diagram]{Stress management System Block Diagram \index{Hasnain}}
+  \label{fig:system_block}
+\end{figure}
+
+\section{Prototyping of the Application}
+
+After the persona analysis and block diagram of the application , prior to start implementing and developing it , prototyping has been used as the first step in the design process.
+
+Prototyping is not just about designing a user interface's "feel." It's also about prototyping — deciding how the \acs{UI} should work, and reacting to user input. That is why the design of interaction and the use of cases function together so well, especially when combined with people.\citep{Stephens2006PersonaAnalysis}
+
+\subsection{Paper Prototyping}
+
+\begin{figure}[hbt!] 
+  \centering
+  \subbottom[Sketch welcome page]{\includegraphics[width=0.45\textwidth]{chap3/image/sk1.jpg}}\qquad
+    \subbottom[Sketch Options]{\includegraphics[width=0.45\textwidth]{chap3/image/sk2.jpg}}%
+  \caption[Paper prototype sketch ]{Paper prototype sketch .\index{Hasnain}}
+  \label{fig:Paper_proto}
+\end{figure}
+Paper prototyping which is also called as offline prototyping is the fastest way to get the straight feedback from the user in the initial stages of design process and it also makes the discussion easier between the developers and other stakeholders of the app. The easiest ways to create paper prototypes include the use of cardboard, paper, pens and sticky notes.\citep{Bansemir2014ExperienceVisualizations}
+
+The sketches made in paper prototypes create a mutual understanding of the interface of the application between the different stakeholders of the app which further positively affects the development process. It is being said that user and developers find sketches easier to understand the lengthy written documentation. Sketches which are being used in the process of paper prototyping presents the initial ideas of the app and build the foundation of discussions for the further iteration stages\citep{Bansemir2014ExperienceVisualizations}.
+
+In Figure \ref{fig:Paper_proto} and , you can see an example of the sketch which has been made for first look of workplace stress management app.This screen is normally referred to as virtual accessibility assistance or welcome screen. you can see rough sketch of the buttons which we have used for accessing different functionality. 
+
+One of the great things about paper prototypes is the way we come up with all kinds of creative ways of simulating visual effects or interactions.
+
+We plan to conduct testing sessions with a paper prototype and use two roles for each testing session:
+\begin{itemize}
+    \item Facilitator (presenter). A person who instructs and interacts with the test participants.
+    \item 'Human computer' This person remains silent during the session and is responsible for changing screens or screen statements whenever the participant of the test interacts with a prototype.
+\end{itemize}
+
+In Figure \ref{fig:Poster}, you can see an example of the testing sessions with a paper prototype which has been made for simulating visual effects of workplace stress management app.We also give a name "Schneckenhaus" to this system.
+
+\begin{figure}[hbt!] 
+  \centering
+  \includegraphics[width=0.9\textwidth]{chap3/image/poster.png}
+  \caption[Paper prototype Test ]{Paper prototype Test .\index{Hasnain}}
+  \label{fig:Poster}
+\end{figure}
+
+The screenshots of the application which has been planned in the prototyping phase and later designed in the implementation phase can be seen in Appendix A.
+
+
+To sum up; this chapter has discussed the concept and prototyping chosen for performing this study. We have addressed the requirement engineering and persona analysis considerations and also gave reasons as to why we  chose  the  concept  that  we have  chosen. The next section of our paper will then present our system development which we got from the analysis. 
+
+
+%\enlargethispage{\baselineskip} % so you do not get a single line in another page
