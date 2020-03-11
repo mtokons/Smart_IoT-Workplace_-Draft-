@@ -1,7 +1,7 @@
 
 
 \NeedsTeXFormat{LaTeX2e}
-\ProvidesClass{um}[2018/05/01-2019/03/25 v1.2.1 University of Bremen, Dissertation/FYP/Thesis Template]
+\ProvidesClass{um}[2018/05/01-2019/03/25 v1.2.1 University of Bremen, Thesis/FYP/Thesis Template]
 
 
 \DeclareOption*{\PassOptionsToClass{\CurrentOption}{memoir}}
@@ -28,6 +28,9 @@
 \usepackage[defaultsans]{lato}		 % Sans font to use
 \usepackage[printonlyused,withpage]{acronym}
 \usepackage{dirtytalk}
+\usepackage{listings}
+\usepackage{pgfplots}
+
 
 %% ****************** Packages (End) *********************
 
@@ -244,19 +247,19 @@
 
 {\setlength{\parindent}{0em}
 	
-\textbf{(a) Authenticity of Dissertation}\\
+\textbf{(a) Authenticity of Master Thesis}\\
 
-\noindent I hereby declare that I am the legitimate author of this Dissertation and that it is my original work.
+\noindent I hereby declare that I am the legitimate author of this Master Thesis and that it is my original work.
 
 No portion of this work has been submitted in support of an application for another degree or qualification of this or any other university or institution of higher education.
 
-I hold the University of Malta harmless against any third party claims with regard to copyright violation, breach of confidentiality, defamation and any other third party right infringement.\\
+I hold the University of Bremen harmless against any third party claims with regard to copyright violation, breach of confidentiality, defamation and any other third party right infringement.\\
 
 \textbf{(b) Research Code of Practice and Ethics Review Procedures}\\
 
 I declare that I have abided by the University’s Research Ethics Review Procedures.
 
-As a Master’s student, as per Regulation 58 of the General Regulations for University Postgraduate Awards, I accept that should my dissertation be awarded a Grade A, it will be made publicly available on the University of Malta Institutional Repository.}\\[5mm]
+As a Master’s student, as per the General Regulations for University graduate Awards, I accept that should my thesis be awarded a Grade A, it will be made publicly available on the University of Bremen Institutional Repository.}\\[5mm]
 %%\newcolumntype{L}{>{\arraybackslash}m{2.5in}}
 \bgroup
 \def\arraystretch{1.2}%
