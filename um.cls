@@ -253,7 +253,7 @@
 
 No portion of this work has been submitted in support of an application for another degree or qualification of this or any other university or institution of higher education.
 
-I hold the University of Bremen harmless against any third party claims with regard to copyright violation, breach of confidentiality, defamation and any other third party right infringement.\\
+I hold the University of Bremen harmless against any third party claims concerning copyright violation, breach of confidentiality, defamation and any other third party right infringement.\\
 
 \textbf{(b) Research Code of Practice and Ethics Review Procedures}\\
 
@@ -272,7 +272,7 @@ As a Master’s student, as per the General Regulations for University graduate 
 {\bfseries Date} & \today \\
 \end{tabular}\\[1cm]
 \egroup
-\noindent 08.02.2018
+\noindent 
 \if@openright\cleardoublepage\else\clearpage\fi}
 
 
